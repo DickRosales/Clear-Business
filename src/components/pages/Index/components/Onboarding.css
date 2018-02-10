@@ -62,3 +62,129 @@
   overflow: hidden;
   top: 100px;
 }
+
+.other-section {
+  background: #f9fafd;
+}
+.other-row {
+  position: relative;
+  padding-bottom: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: #f9fafd;
+}
+
+.other-row figure {
+  width: 300px;
+  height: 300px;
+  background: #fff;
+}
+.other-row li {
+  position: relative;
+  list-style: none;
+  margin-bottom: 2.5rem;
+  width: 350px;
+}
+.other-row li:before {
+  position: absolute;
+  content: '';
+  left: -50px;
+  height: 40px;
+  width: 40px;
+  background: #5a79ee;
+  border-radius: 6px;
+  top: 15px;
+  /* transform: translate(0, -50%); */
+}
+
+.other-row li h4 {
+  margin-top: 0;
+}
+.other-row li p {
+  margin-top: 0;
+  font-size: 0.95rem;
+}
+
+.about-section {
+  position: relative;
+  padding-bottom: 50px;
+  background: #f9fafd;
+  z-index: 10;
+  background: url(https://awesomemotive.com/wp-content/themes/amthemenew/assets/images/curve-bg.png) no-repeat;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.about-row {
+  position: relative;
+  padding-bottom: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-row figure {
+  position: relative;
+  width: 62%;
+  position: relative;
+}
+.about-row figure img {
+  width: 100%;
+}
+.about-row figure span {
+  position: absolute;
+  padding: 10px;
+  background: white;
+  width: 140px;
+  top: 40.5%;
+  left: 13.5%;
+}
+
+.about-row div {
+  width: 375px;
+}
+
+.clients-row {
+  width: 100%;
+  white-space: nowrap;
+  text-align: center;
+  overflow: hidden;
+  height: 360px;
+  padding-top: 50px;
+}
+.clients {
+  width: 240px;
+  height: 300px;
+  margin-left: 30px;
+  background: #999;
+
+  position: relative;
+  display: inline-block;
+  /* width: 120px;
+  height: 150px; */
+  margin-left: 15px;
+  margin-right: -4px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 5px 18px 0 rgba(44, 46, 61, 0.1), 0 2px 4px 0 rgba(44, 46, 61, 0.1);
+  box-shadow: 0 5px 18px 0 rgba(44, 46, 61, 0.1), 0 2px 4px 0 rgba(44, 46, 61, 0.1);
+  border-radius: 3px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.clients:nth-child(odd) {
+  top: -50px;
+}
