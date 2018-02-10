@@ -2,7 +2,7 @@ module.exports = {
   blogPostDir: 'sample-posts', // The name of directory that contains your posts.
   siteTitle: 'ClearDigital', // Site title.
   siteTitleAlt: 'Music to your ears', // Alternative site title for SEO.
-  siteLogo: '/logos/logo-1024.png', // Logo used for SEO and manifest.
+  siteLogo: '/logos/clear_wide.png', // Logo used for SEO and manifest.
   siteUrl: 'https://cleardigital.io', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: 'A GatsbyJS stater with Advanced design in mind.', // Website description used for RSS feeds/meta description tag.

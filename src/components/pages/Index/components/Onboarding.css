@@ -1,0 +1,64 @@
+.onboarding-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  padding-bottom: 200px;
+}
+.onboarding-section article {
+  position: relative;
+  margin: 0 2.5%;
+  width: 300px;
+  text-align: center;
+  /* border: 1px solid #e9ebf8; */
+  /* border-radius: 6px; */
+  /* box-shadow: 0 8px 12px 0 rgba(14, 36, 129, 0.08); */
+  /* background: #fff; */
+  /* padding: 30px; */
+  /* border-radius: 5px; */
+}
+.onboarding-section article::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  top: 85px;
+  right: -45px;
+  background-image: url(/onboarding/arrow.svg);
+  opacity: 0.25;
+  background: red;
+}
+
+.onboarding-section article img {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.video-section {
+  position: relative;
+  padding-bottom: 50px;
+  background: #f2f4fa;
+  z-index: 10;
+  background: url(https://awesomemotive.com/wp-content/themes/amthemenew/assets/images/curve-bg.png) no-repeat;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  transform: scale(-1);
+  background-size: cover;
+}
+.video-row {
+  position: relative;
+  border: 1px solid #e9ebf8;
+  border-radius: 6px;
+  box-shadow: 0 8px 12px 0 rgba(14, 36, 129, 0.08);
+  background: #fff;
+  height: 400px;
+  width: 650px;
+  transform: scale(-1);
+  overflow: hidden;
+  top: 100px;
+}
