@@ -2,6 +2,8 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import config from '../../data/SiteConfig';
 import Nav from '../components/ui/Nav/Nav';
+import Footer from '../components/ui/Footer/Footer';
+
 import './index.css';
 
 export default class MainLayout extends React.Component {
@@ -48,6 +50,7 @@ export default class MainLayout extends React.Component {
         </Helmet>
         <Nav logo={config.siteLogo} />
         {children()}
+        <Footer config={config} />
       </div>
     );
   }

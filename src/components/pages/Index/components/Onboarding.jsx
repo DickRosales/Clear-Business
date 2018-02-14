@@ -84,7 +84,7 @@ class Onboarding extends Component {
         </section>
         <section className="about-section">
           <div className="about-row">
-            <div>
+            <div className="about-text">
               <h3>
                 A new type of music company.<br /> Built by a global team.
               </h3>
@@ -93,10 +93,21 @@ class Onboarding extends Component {
                 artist, composer, publisher or music label, Clear Digital Music Group has the expertise, tools and
                 relationships to get your music heard and ensure that you’re maximizing your time and revenue.
               </p>
+              <a className="section-button" href="#">
+                About Us
+              </a>
             </div>
-            <figure>
+            <figure className="about-map">
               <img src={map} alt="World Map" />
-              <span>Los Angeles, CA</span>
+              <div className="location-wrapper">
+                <div className="location">
+                  <div className="grey-circle" />
+                  <div className="grey-circle" />
+                  <div className="grey-circle" />
+                  <figure />
+                  <span>Los Angeles, CA</span>
+                </div>
+              </div>
             </figure>
           </div>
         </section>
@@ -122,6 +133,15 @@ class Onboarding extends Component {
               <img src="" alt="" />
               <h6>Abe Records</h6>
             </div>
+          </div>
+          <div className="client-providers">
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
           </div>
         </section>
       </div>

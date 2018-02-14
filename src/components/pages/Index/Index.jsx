@@ -31,7 +31,11 @@ class Index extends Component {
           <h1>{content.heroTitle}</h1>
           <h2>{content.heroSubTitle}</h2>
           <h3>{content.heroSubParagraph}</h3>
-          <Link to={content.heroLink}>Other Services</Link>
+          <div className="input-field">
+            <input type="text" placeholder="Enter your email" />
+            <button className="btn">Get Started</button>
+          </div>
+          {/* <Link to={content.heroLink}>Other Services</Link> */}
         </div>
         <main>
           <ViewCounter />
