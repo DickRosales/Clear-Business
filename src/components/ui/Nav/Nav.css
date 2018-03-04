@@ -58,11 +58,22 @@ nav {
   text-align: center;
   line-height: 40px;
   text-decoration: none;
-  color: #9fa4c0;
+  color: rgb(52, 79, 113);
+  font-size: 16px;
 }
 
 .nav-right a {
-  border: 2px solid #637cd5;
-  border-radius: 3px;
+  background: linear-gradient(90deg, #637cd5, #6831e4);
+  border: 2px solid;
+  border-image: linear-gradient(90deg, #637cd5, #6831e4);
+  border-image-slice: 1;
+
+  /* color: #fff; */
+  position: relative;
+  transition: none;
+  text-align: center;
+  box-shadow: 0 8px 12px 0 rgba(14, 36, 129, 0.08);
+
   padding: 0 10px;
+  background: transparent;
 }

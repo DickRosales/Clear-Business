@@ -6,6 +6,7 @@ import money from '../../../../../static/onboarding/moneyMarket.png';
 import music from '../../../../../static/onboarding/musicTranscript.png';
 import file from '../../../../../static/onboarding/sendFile.png';
 import map from '../../../../../static/onboarding/map.svg';
+import video from '../../../../../static/onboarding/virlan-video.png';
 
 // const propTypes = {
 //   logo: PropTypes.string.isRequired
@@ -38,13 +39,21 @@ class Onboarding extends Component {
           </div>
         </section>
         <section className="video-section">
-          <div className="video-row" />
+          <div
+            className="video-row"
+            style={{
+              backgroundImage: `url(${video})`
+            }}
+          />
         </section>
         <section className="other-section">
           <div className="other-row">
-            <figure>
-              <img src="" alt="" />
-            </figure>
+            <figure
+              style={{
+                backgroundImage:
+                  'url(https://media.istockphoto.com/photos/cassette-tape-and-frame-on-split-background-picture-id699564914)'
+              }}
+            />
             <ul>
               <li>
                 <img src="" alt="" />
@@ -58,9 +67,8 @@ class Onboarding extends Component {
                 <img src="" alt="" />
                 <h4>Label Services</h4>
                 <p>
-                  ClearDigital can help record labels or independent artist move in the right direction. Our label
-                  services can help you review agreements, register for royalty collection (SoundExchange), manage
-                  artist and meet your production deadlines.
+                  Our label services can help you review agreements, register for royalty collection (SoundExchange),
+                  manage artist and meet your production deadlines.
                 </p>
               </li>
               <li>
@@ -85,13 +93,10 @@ class Onboarding extends Component {
         <section className="about-section">
           <div className="about-row">
             <div className="about-text">
-              <h3>
-                A new type of music company.<br /> Built by a global team.
-              </h3>
+              <h3>A new type of music company.</h3>
               <p>
-                Clear Digital Music Group strives to provide clear and transparent music solutions. Whether you’re an
-                artist, composer, publisher or music label, Clear Digital Music Group has the expertise, tools and
-                relationships to get your music heard and ensure that you’re maximizing your time and revenue.
+                Clear Digital Music Group has the expertise, tools and relationships to get your music heard and ensure
+                that you’re maximizing your time and revenue.
               </p>
               <a className="section-button" href="#">
                 About Us
@@ -118,20 +123,40 @@ class Onboarding extends Component {
           </div>
           <div className="clients-row">
             <div className="clients">
-              <img src="" alt="" />
+              <figure
+                style={{
+                  backgroundImage: `url(http://www.iconosmagazine.net/SITIO/wp-content/uploads/2017/05/Virlan2--1000x600.jpg)`
+                }}
+              />
               <h6>Virlan Garcia</h6>
             </div>
             <div className="clients">
-              <img src="" alt="" />
+              <figure
+                style={{
+                  backgroundImage: `url(https://cleardigital.io/images/showbusiness_logosquare.png)`,
+                  backgroundSize: 'contain',
+                  backgroundRepeat: 'no-repeat'
+                }}
+              />
               <h6>ShowBusiness</h6>
             </div>
             <div className="clients">
-              <img src="" alt="" />
+              <figure
+                style={{
+                  backgroundImage: `url(https://images-na.ssl-images-amazon.com/images/I/51TmH3w2-jL._SS500.jpg)`
+                }}
+              />
               <h6>Jovanny Cadena</h6>
             </div>
             <div className="clients">
-              <img src="" alt="" />
-              <h6>Abe Records</h6>
+              <figure
+                style={{
+                  backgroundImage: `url(https://amp.businessinsider.com/images/58503297ca7f0cdf1e8b526e-750-485.png)`,
+                  backgroundSize: 'contain',
+                  backgroundRepeat: 'no-repeat'
+                }}
+              />
+              <h6>Waymo</h6>
             </div>
           </div>
           <div className="client-providers">
