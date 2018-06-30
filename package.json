@@ -16,6 +16,7 @@
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-plugin-sharp": "^1.6.24",
     "gatsby-plugin-sitemap": "^1.2.9",
+    "gatsby-plugin-styled-components": "^2.0.11",
     "gatsby-plugin-twitter": "^1.0.14",
     "gatsby-remark-autolink-headers": "^1.4.11",
     "gatsby-remark-copy-linked-files": "^1.5.25",
@@ -31,8 +32,10 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-helmet": "^5.2.0",
+    "react-icons": "^2.2.7",
     "react-share": "^1.19.0",
-    "react-twitter-widgets": "^1.7.1"
+    "react-twitter-widgets": "^1.7.1",
+    "styled-components": "^3.3.3"
   },
   "devDependencies": {
     "cli-glob": "^0.1.0",

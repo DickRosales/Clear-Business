@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+import styled from "styled-components";
 // import * as PropTypes from 'prop-types';
 import Link from 'gatsby-link';
+import SectionHeader from './SectionHeader'
+import ClearLocation from './ClearLocation'
+import Clients from './Clients'
+import Providers from './Providers'
+
 import './Onboarding.css';
 import money from '../../../../../static/onboarding/moneyMarket.png';
 import music from '../../../../../static/onboarding/musicTranscript.png';
 import file from '../../../../../static/onboarding/sendFile.png';
-import map from '../../../../../static/onboarding/map.svg';
 import video from '../../../../../static/onboarding/virlan-video.png';
 
 // const propTypes = {
@@ -16,10 +21,7 @@ class Onboarding extends Component {
     return (
       <div>
         <section className="onboarding-section">
-          <div className="section-title">
-            <h3>Lets get started.</h3>
-            <p>How to get your music distributed with ClearDigital.</p>
-          </div>
+          <SectionHeader title='Lets get started.' subTitle='How to get your music distributed with ClearDigital.'/>
           <div className="onboarding-row">
             <article>
               <img src={music} alt="" />
@@ -102,72 +104,13 @@ class Onboarding extends Component {
                 About Us
               </a>
             </div>
-            <figure className="about-map">
-              <img src={map} alt="World Map" />
-              <div className="location-wrapper">
-                <div className="location">
-                  <div className="grey-circle" />
-                  <div className="grey-circle" />
-                  <div className="grey-circle" />
-                  <figure />
-                  <span>Los Angeles, CA</span>
-                </div>
-              </div>
-            </figure>
+            <ClearLocation />
           </div>
         </section>
         <section className="clients-section">
-          <div className="section-title">
-            <h3>Our Clients.</h3>
-            <p>How to get your music distributed with ClearDigital.</p>
-          </div>
-          <div className="clients-row">
-            <div className="clients">
-              <figure
-                style={{
-                  backgroundImage: `url(http://www.iconosmagazine.net/SITIO/wp-content/uploads/2017/05/Virlan2--1000x600.jpg)`
-                }}
-              />
-              <h6>Virlan Garcia</h6>
-            </div>
-            <div className="clients">
-              <figure
-                style={{
-                  backgroundImage: `url(https://cleardigital.io/images/showbusiness_logosquare.png)`,
-                  backgroundSize: 'contain',
-                  backgroundRepeat: 'no-repeat'
-                }}
-              />
-              <h6>ShowBusiness</h6>
-            </div>
-            <div className="clients">
-              <figure
-                style={{
-                  backgroundImage: `url(https://images-na.ssl-images-amazon.com/images/I/51TmH3w2-jL._SS500.jpg)`
-                }}
-              />
-              <h6>Jovanny Cadena</h6>
-            </div>
-            <div className="clients">
-              <figure
-                style={{
-                  backgroundImage: `url(https://amp.businessinsider.com/images/58503297ca7f0cdf1e8b526e-750-485.png)`,
-                  backgroundSize: 'contain',
-                  backgroundRepeat: 'no-repeat'
-                }}
-              />
-              <h6>Waymo</h6>
-            </div>
-          </div>
-          <div className="client-providers">
-            <span />
-            <span />
-            <span />
-            <span />
-            <span />
-            <span />
-            <span />
-          </div>
+          <SectionHeader title='Our Clients.' subTitle='How to get your music distributed with ClearDigital.' />
+          <Clients />
+          <Providers />
         </section>
       </div>
     );
