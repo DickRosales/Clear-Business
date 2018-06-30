@@ -9230,7 +9230,7 @@ react-dev-utils@^4.2.1:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-react-dom@^15.6.0, react-dom@^15.6.1:
+react-dom@^15.6.0:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.1.tgz#2cb0ed4191038e53c209eb3a79a23e2a4cf99470"
   dependencies:
@@ -9238,6 +9238,15 @@ react-dom@^15.6.0, react-dom@^15.6.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
     prop-types "^15.5.10"
+
+react-dom@^16.0.0:
+  version "16.4.1"
+  resolved "https://repository.corp.eharmony.com/nexus/repository/npm-all/react-dom/-/react-dom-16.4.1.tgz#7f8b0223b3a5fbe205116c56deb85de32685dad6"
+  dependencies:
+    fbjs "^0.8.16"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.0"
 
 react-error-overlay@^3.0.0:
   version "3.0.0"
@@ -9329,7 +9338,7 @@ react-twitter-widgets@^1.7.1:
     prop-types "^15.3.0"
     scriptjs "^2.5.8"
 
-react@^15.6.0, react@^15.6.1:
+react@^15.6.0:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/react/-/react-15.6.1.tgz#baa8434ec6780bde997cdc380b79cd33b96393df"
   dependencies:
@@ -9338,6 +9347,15 @@ react@^15.6.0, react@^15.6.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
     prop-types "^15.5.10"
+
+react@^16.0.0:
+  version "16.4.1"
+  resolved "https://repository.corp.eharmony.com/nexus/repository/npm-all/react/-/react-16.4.1.tgz#de51ba5764b5dbcd1f9079037b862bd26b82fe32"
+  dependencies:
+    fbjs "^0.8.16"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.0"
 
 read-all-stream@^3.0.0:
   version "3.1.0"

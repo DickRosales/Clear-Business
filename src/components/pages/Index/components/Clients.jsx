@@ -23,6 +23,9 @@ const Client = styled.div`
   border-radius: 3px;
   transform-origin: center;
   transition: transform 0.5s ease;
+  &:nth-child(odd) {
+    top: -50px;
+  }
 `
 const ClientName = styled.h6`
   position: absolute;

@@ -5,6 +5,8 @@ import Link from 'gatsby-link';
 import ViewCounter from './components/ViewCounter';
 import Services from './components/Services';
 import Onboarding from './components/Onboarding';
+import ClientsSection from './components/ClientsSection';
+import AboutSection from './components/AboutSection';
 
 import './Index.css';
 // import arrow from '../../../../static/onboarding/arrow.svg';
@@ -49,6 +51,8 @@ class Index extends Component {
           <ViewCounter />
           <Services />
           <Onboarding />
+          <AboutSection />
+          <ClientsSection />
         </main>
       </div>
     );

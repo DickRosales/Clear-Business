@@ -3,9 +3,6 @@ import styled from "styled-components";
 // import * as PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import SectionHeader from './SectionHeader'
-import ClearLocation from './ClearLocation'
-import Clients from './Clients'
-import Providers from './Providers'
 
 import './Onboarding.css';
 import money from '../../../../../static/onboarding/moneyMarket.png';
@@ -91,26 +88,6 @@ class Onboarding extends Component {
               </li>
             </ul>
           </div>
-        </section>
-        <section className="about-section">
-          <div className="about-row">
-            <div className="about-text">
-              <h3>A new type of music company.</h3>
-              <p>
-                Clear Digital Music Group has the expertise, tools and relationships to get your music heard and ensure
-                that you’re maximizing your time and revenue.
-              </p>
-              <a className="section-button" href="#">
-                About Us
-              </a>
-            </div>
-            <ClearLocation />
-          </div>
-        </section>
-        <section className="clients-section">
-          <SectionHeader title='Our Clients.' subTitle='How to get your music distributed with ClearDigital.' />
-          <Clients />
-          <Providers />
         </section>
       </div>
     );
